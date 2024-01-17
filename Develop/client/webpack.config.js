@@ -20,13 +20,8 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        //chunks: ['main'],
       }),
-      // new HtmlWebpackPlugin({
-      //   template: './src/install.html',
-      //   filename: 'install.html',
-      //   chunks: ['install'],
-      // }),
+      
       new WebpackPwaManifest({
         name: 'Your App Name',
         short_name: 'App',
