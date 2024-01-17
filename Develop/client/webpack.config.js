@@ -19,14 +19,14 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: './src/index.html',
-        chunks: ['main'],
+        template: './index.html',
+        //chunks: ['main'],
       }),
-      new HtmlWebpackPlugin({
-        template: './src/install.html',
-        filename: 'install.html',
-        chunks: ['install'],
-      }),
+      // new HtmlWebpackPlugin({
+      //   template: './src/install.html',
+      //   filename: 'install.html',
+      //   chunks: ['install'],
+      // }),
       new WebpackPwaManifest({
         name: 'Your App Name',
         short_name: 'App',
@@ -42,7 +42,7 @@ module.exports = () => {
         ],
       }),
       new InjectManifest({
-        swSrc: './src/sw.js', // Path to your service worker file
+        swSrc: './src-sw.js', // Path to your service worker file
         swDest: 'service-worker.js',
       }),
     ],
