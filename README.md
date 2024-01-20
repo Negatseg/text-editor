@@ -32,3 +32,7 @@ THEN I should have proper build scripts for a webpack application
 
 screenshot of the webpage
 
+![Alt text](image.png) = screenshot of the service worker
+
+![Alt text](image-1.png) = screenshot of the IDB
+
