@@ -23,5 +23,8 @@
     "build": "cd client && npm run build",
     "install": "cd server && npm i && cd ../client && npm i",
     "client": "cd client && npm start"
+  },
+  "engines": {
+    "node": "20.10.0"
   }
 }
