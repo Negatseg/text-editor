@@ -1,6 +1,9 @@
 # Text Editor Starter Code
+Introduction:
 This webpage is implemented for a learning purpose in bootscamp. It is regarding PWA.
-It is open source for teh public and anyone who wants to modify thi scode can do so.
+It is open source for the public and anyone who wants to modify thi scode can do so.
+The application used technologies like express servers and is deployed to Render cloud.
+The url of the api is provided below.
 
 Acceptance criteria:
 GIVEN a text editor web application
@@ -35,4 +38,7 @@ screenshot of the webpage
 ![Alt text](image.png) = screenshot of the service worker
 
 ![Alt text](image-1.png) = screenshot of the IDB
+
+The application is deployed in Render and here is the url:
+https://best-app-qn8j.onrender.com
 
